@@ -31,8 +31,7 @@ class App < Sinatra::Application
   end
 
   get '/get_marcas' do
-    # GetMarcas():Obtiene desde el servidor un listado de marcas para #desplegarlas en una lista desplegable en marca
-    json 'ok get marcas'
+    json Brand.all.pluck(:name)
   end
 
   get '/delete/id' do
