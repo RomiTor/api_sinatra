@@ -1,10 +1,7 @@
 development:
-  adapter: postgresql
+  adapter: sqlite3
   encoding: unicode
-  database: api_sinatra_dev
-  pool: 2
-  username: railsdev
-  password: railsdev
+  database: db/development.sqlite3
 
 production:
   adapter: postgresql

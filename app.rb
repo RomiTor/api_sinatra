@@ -3,6 +3,7 @@
 require 'rubygems'
 require 'json'
 require 'sinatra'
+require 'sinatra/activerecord'
 require 'sinatra/json'
 
 require_relative 'models/user'
