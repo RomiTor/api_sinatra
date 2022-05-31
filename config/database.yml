@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: api_sinatra_dev
+  pool: 2
+  username: railsdev
+  password: railsdev
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: api_sinatra
+  pool: 2
+  username: railsdev
+  password: railsdev

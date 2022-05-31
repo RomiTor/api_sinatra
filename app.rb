@@ -5,6 +5,10 @@ require 'json'
 require 'sinatra'
 require 'sinatra/json'
 
+require_relative 'models/user'
+require_relative 'models/brand'
+require_relative 'models/vehicle'
+
 class App < Sinatra::Application
   post '/login' do
     # Recibe login/pass y comprueba de que exista en tabla usuarios
